@@ -1,0 +1,120 @@
+
+.card{
+  background-color: rgba(255, 255, 255, 0.75); 
+}
+ 
+.card-title{
+    font-family: "Figtree", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    color: #815D48;
+}
+
+h1{
+    font-family: "Baskervville", serif;
+}
+
+.blockquote{
+    color: #8D97A4;    
+    font-size: 40px;
+    font-family: "Baskervville", serif;
+    font-style: italic;
+}
+.blockquote-footer{
+    color: #8D97A4;
+    font-size: 20px;
+    font-family: "Figtree", sans-serif;
+}
+.card-subtitle{
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-size: 60px;
+    color: #3F403F;
+}
+
+.card-body{
+    font-family: "Figtree", sans-serif;
+    color: #5F646C;
+}
+
+.figure-caption{
+    font-size: 0.85em;
+    text-align: center;
+    font-style: italic;
+    color: #5F646C;
+}
+
+body{
+    font-family: "Figtree", sans-serif;
+    color: #5F646C;
+}
+#map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+
+#text-content {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+/* Create a transparent mask over the left column */
+.interaction-blocker {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  /* Match the width of the left column */
+  height: 100%;
+  pointer-events: none;
+  /* Prevent this layer from interfering with interactions */
+  background-color: rgba(255, 255, 255, 0.001);
+  /* Invisible but blocks interaction */
+  z-index: 2;
+}
+
+
+.card img {
+  width: 100%;
+  /* Make images fill the card width */
+  height: auto;
+  /* Maintain aspect ratio */
+}
+
+.custom-scrollbar {
+  direction: rtl;
+  /* Move scrollbar to the left */
+}
+
+.custom-scrollbar > * {
+  direction: ltr;
+  /* Restore text alignment to left-to-right */
+  text-align: left;
+  /* Ensure text alignment is left */
+}
+
+/* For modern browsers */
+.custom-scrollbar {
+  scrollbar-color: #007cbf #f0f0f0; /* Scroll thumb and track colors */
+  scrollbar-width: thin; /* Scrollbar width: auto, thin, or none */
+}
+
+/* For WebKit-based browsers (Chrome, Edge, Safari) */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #007cbf; /* Thumb color */
+  border-radius: 4px; /* Rounded corners for thumb */
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: #f0f0f0; /* Track color */
+}
