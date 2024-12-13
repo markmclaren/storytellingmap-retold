@@ -10,7 +10,7 @@ This project reimagines the concept of animated maps for interactive storytellin
 
 ## Technical Stack
 - **Mapping**: [Maplibre GL JS](https://maplibre.org/maplibre-gl-js/docs/)
-- **Data Format**: [GeoJSON](https://geojson.org/) (converted from SVG using [QGIS](https://qgis.org/) and [SVG2GeoJSON](https://github.com/davidworkman9/svg2geojson))
+- **Data Format**: [GeoJSON](https://geojson.org/) (converted from SVG using [QGIS](https://qgis.org/) and [SVG2GeoJSON](https://github.com/Phrogz/svg2geojson))
 - **Layout**: [Bootstrap 5](https://getbootstrap.com/)
 - **Animation**: [ScrollMagic](https://scrollmagic.io/)
 - **Base Technologies**: JavaScript, HTML, CSS
@@ -27,7 +27,7 @@ This project embraces a pragmatic approach to web development. While it uses mod
 
 ## Tools Used
 - **[QGIS](https://qgis.org/)**: For geographic data manipulation
-- **[SVG2GeoJSON](https://github.com/davidworkman9/svg2geojson)**: For converting original SVG paths to GeoJSON format
+- **[SVG2GeoJSON](https://github.com/Phrogz/svg2geojson))**: For converting original SVG paths to GeoJSON format
 - **[ScrollMagic](https://scrollmagic.io/)**: For scroll-based animations (related to [GSAP](https://greensock.com/gsap/) used in the original)
 
 ## Demo
