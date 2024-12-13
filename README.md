@@ -34,6 +34,6 @@ This project embraces a pragmatic approach to web development. While it uses mod
 Experience the interactive map storytelling at: [Live Demo](https://markmclaren.github.io/storytellingmap-retold/)
 
 ## Acknowledgments
-- Original inspiration: Lucas Bebber's Animated Map Path demo
+- Original inspiration: [Lucas Bebber](https://lbebber.github.io/public/)'s [Animated Map Path demo](https://tympanus.net/Development/StorytellingMap/)
 - The [ScrollMagic](https://scrollmagic.io/) and [GSAP](https://greensock.com/gsap/) communities
 - Contributors to the open-source tools used in this project
