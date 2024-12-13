@@ -27,7 +27,7 @@ This project embraces a pragmatic approach to web development. While it uses mod
 
 ## Tools Used
 - **[QGIS](https://qgis.org/)**: For geographic data manipulation
-- **[SVG2GeoJSON](https://github.com/Phrogz/svg2geojson))**: For converting original SVG paths to GeoJSON format
+- **[SVG2GeoJSON](https://github.com/Phrogz/svg2geojson)**: For converting original SVG paths to GeoJSON format
 - **[ScrollMagic](https://scrollmagic.io/)**: For scroll-based animations (related to [GSAP](https://greensock.com/gsap/) used in the original)
 
 ## Demo
